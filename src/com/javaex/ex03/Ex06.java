@@ -8,14 +8,15 @@ public class Ex06 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("점수를 입력하세요");
+		System.out.println("숫수를 입력하세요");
 		
-		int multiple = sc.nextInt();
+		int num = sc.nextInt();
 		
-		if(multiple%3==0){
-			System.out.println("3의배수입니다");
+		if(num%3==0){
+			System.out.println(num + "은(는)3의 배수 입니다");
+		
 		}else {
-			System.out.println("3의배수가 아닙니다");
+			System.out.println(num + "은(는)3의 배수가 아닙니다");
 		}
 		
 		
