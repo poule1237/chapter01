@@ -12,7 +12,7 @@ public class Ex02 {
 		int no5;
 		int no6;
 		
-		for(int i=1; i<=6; i++)  {
+		for(int i=1; i<6; i++)  {
 			no1 =(int)(Math.random()*45) + 1;
 			
 		}
